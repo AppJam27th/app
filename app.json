@@ -33,7 +33,12 @@
                 "@mj-studio/react-native-naver-map",
                 {
                     "client_id": "bao9z3hnd2",
-
+                    // 안드로이드 권한
+                    "android": {
+                        "ACCESS_FINE_LOCATION": true,
+                        "ACCESS_COARSE_LOCATION": true,
+                        "ACCESS_BACKGROUND_LOCATION": true
+                    },
                 }
             ]
         ],
