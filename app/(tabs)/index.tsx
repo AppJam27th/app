@@ -1,5 +1,4 @@
-import { StyleSheet, Text } from 'react-native';
-import { ScrollView } from 'react-native-reanimated/lib/typescript/Animated';
+import { ScrollView, StyleSheet, Text } from 'react-native';
 
 export default function HomeScreen() {
     return (
