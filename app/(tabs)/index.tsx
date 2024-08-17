@@ -1,10 +1,10 @@
-import { ScrollView, StyleSheet, Text } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text } from 'react-native';
 
 export default function HomeScreen() {
     return (
-        <ScrollView>
+        <SafeAreaView>
             <Text>앙</Text>
-        </ScrollView>
+        </SafeAreaView>
     );
 }
 
